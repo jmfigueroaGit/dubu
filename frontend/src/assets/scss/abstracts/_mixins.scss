@@ -1,0 +1,14 @@
+@mixin flex-column() {
+	display: flex;
+	flex-direction: column;
+}
+
+@mixin default-container-size($color, $text) {
+	width: 25em;
+	padding: 1em;
+	border-radius: 0.5rem;
+	border: none;
+	background-color: $color;
+	color: $text;
+	font-size: 1.8rem;
+}
