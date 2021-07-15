@@ -1,11 +1,25 @@
 import React from 'react';
+import { createTheme, ThemeProvider } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
 
-const Button = ({ text }) => {
+const theme = createTheme({
+	palette: {
+		primary: {
+			main: '#FFFFFF',
+		},
+		secondary: {
+			main: '#24C4CD',
+		},
+	},
+});
+const Buttons = ({ text }) => {
 	return (
-		<div>
-			<button class="btn btn-default">{text}</button>
-		</div>
+		<ThemeProvider theme={theme}>
+			<Button variant="contained" color="secondary" size="small">
+				<span className="btn btn-default">{text}</span>
+			</Button>
+		</ThemeProvider>
 	);
 };
 
-export default Button;
+export default Buttons;

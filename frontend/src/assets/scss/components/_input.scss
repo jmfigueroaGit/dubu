@@ -1,3 +1,12 @@
 .input {
 	@include default-container-size($color-main, $color-text-primary);
 }
+.inputLabel {
+	color: $color-text-secondary !important;
+	font-size: 1.8rem !important;
+	font-weight: 100 !important;
+}
+.inputText {
+	color: $color-text-primary !important;
+	font-size: 1.8rem !important;
+}

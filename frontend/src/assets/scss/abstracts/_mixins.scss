@@ -5,10 +5,9 @@
 
 @mixin default-container-size($color, $text) {
 	width: 25em;
-	padding: 1em;
 	border-radius: 0.5rem;
 	border: none;
 	background-color: $color;
-	color: $text;
+	color: $color-text-primary !important;
 	font-size: 1.8rem;
 }

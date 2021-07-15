@@ -1,0 +1,21 @@
+.login-form {
+	@include flex-column();
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+	height: 95vh;
+	&__header {
+		text-align: left;
+		width: 45em;
+	}
+	h1 {
+		letter-spacing: 0.08em;
+		margin-bottom: 1rem;
+	}
+	&__input {
+		margin-bottom: 1.5rem;
+	}
+	h5 {
+		margin-top: 1em;
+	}
+}

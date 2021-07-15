@@ -1,24 +1,38 @@
+h1 {
+	font-size: 3.6rem;
+}
+h2 {
+	font-size: 3rem;
+	font-weight: 600;
+}
+h4 {
+	font-size: 1.4rem;
+}
 h5 {
 	font-size: 1.4rem;
 	font-weight: 400;
 }
-a {
+
+.link {
 	text-decoration: none;
-	color: $color-secondary;
 }
 
 .text {
 	letter-spacing: 0.05em;
 	&__forgot-password {
 		margin-right: 0.1rem;
-		:hover {
+		color: $color-secondary;
+		cursor: pointer;
+		&:hover {
 			color: $color-variant-danger;
 			text-decoration: underline;
 		}
 	}
 	&__sign-up {
 		margin-left: 1rem;
-		:hover {
+		color: $color-secondary;
+		cursor: pointer;
+		&:hover {
 			color: $color-variant-danger;
 			text-decoration: underline;
 		}

@@ -1,26 +1,18 @@
-.btn:hover {
-	transform: translateY(-3px);
-	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-}
-
-.btn:active {
-	transform: translateY(-1px);
-	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-}
-
 .btn-default {
-	@include default-container-size($color-secondary, $color-text-primary);
+	width: 23.5em;
+	border-radius: 0.5rem;
+	border: none;
+	color: $color-text-primary !important;
+	font-size: 1.8rem;
 	font-weight: 800;
-	letter-spacing: 0.1em;
-	margin-bottom: 1.5rem;
+	padding: 0.5em;
+	letter-spacing: 0.2em;
 }
 
 .btn::after {
-	content: '';
 	display: inline-block;
 	height: 100%;
 	width: 100%;
-	border-radius: 10rem;
 	position: absolute;
 	top: 0;
 	left: 0;

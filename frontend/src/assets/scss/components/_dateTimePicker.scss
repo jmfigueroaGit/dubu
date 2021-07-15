@@ -1,0 +1,13 @@
+.inputDate {
+	@include default-container-size($color-main, $color-text-primary);
+	color: $color-text-secondary !important;
+	font-size: 1.8rem !important;
+	border-color: $color-primary !important;
+	width: 25em;
+	padding-left: 1em;
+	padding: 1rem;
+	border-bottom-color: $color-secondary;
+}
+.inputIcon {
+	color: $color-text-secondary !important;
+}

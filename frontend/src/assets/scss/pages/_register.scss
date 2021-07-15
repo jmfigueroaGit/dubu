@@ -1,0 +1,26 @@
+.register-form {
+	@include flex-column();
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+	height: 95vh;
+	&__header {
+		text-align: left;
+		width: 45em;
+	}
+	&__input {
+		margin-bottom: 1.5rem;
+	}
+	&__date {
+		width: 30vw;
+		padding: 0 1em;
+		p {
+			font-weight: 100;
+			margin: 0.8rem 0;
+			letter-spacing: 0.1em;
+		}
+	}
+	h5 {
+		margin-top: 1em;
+	}
+}

@@ -8,35 +8,20 @@
 //Components
 @import './components/input';
 @import './components/button';
-
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import './components/dateTimePicker';
+//Pages
+@import './pages/login';
+@import './pages/register';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 html {
 	font-size: 10px;
 }
-body{
-    background-color: $background-color;
-    font-family: var(--font-heading);
-    color: var(--color-primary);
-}
-
-.login-form{
-    @include flex-column();
-    align-items: center;
-    justify-content: center;
-    align-self: center;
-    height: 95vh;
-    h1{
-        font-size: 3.6rem;
-        letter-spacing: .08em;
-        margin-bottom: 1rem;
-    }
-    &__input{
-        margin-bottom: 1.5rem;
-    }
-    
+body {
+	background-color: $background-color;
+	font-family: var(--font-heading);
+	color: var(--color-primary);
 }
